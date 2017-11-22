@@ -19,15 +19,13 @@ WARNING:
 ## Shared Tags
 
 -	`latest`:
-	-	[`linux` (*amd64/hello-seattle/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hello-seattle/Dockerfile)
-	-	[`nanoserver` (*amd64/hello-seattle/nanoserver/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hello-seattle/nanoserver/Dockerfile)
-	-	[`nanoserver1709` (*amd64/hello-seattle/nanoserver1709/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hello-seattle/nanoserver1709/Dockerfile)
+	-	[`linux` (*arm32v5/hello-seattle/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/arm32v5/hello-seattle/Dockerfile)
 
 ## Simple Tags
 
--	[`linux` (*amd64/hello-seattle/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hello-seattle/Dockerfile)
--	[`nanoserver` (*amd64/hello-seattle/nanoserver/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hello-seattle/nanoserver/Dockerfile)
--	[`nanoserver1709` (*amd64/hello-seattle/nanoserver1709/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hello-seattle/nanoserver1709/Dockerfile)
+-	[`linux` (*arm32v5/hello-seattle/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/arm32v5/hello-seattle/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/hello-seattle/badge/icon) (`arm32v5/hello-seattle` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/hello-seattle/)
 
 # Quick reference
 
@@ -62,7 +60,7 @@ WARNING:
 This image is a vanity variant of [the `hello-world` image](https://hub.docker.com/_/hello-world/) created specifically for [DockerCon 2016](http://2016.dockercon.com/). Its use is discouraged.
 
 ```console
-$ docker run hello-seattle
+$ docker run arm32v5/hello-seattle
 
 Hello from DockerCon 2016 (Seattle)!
 This message shows that your installation appears to be working correctly.

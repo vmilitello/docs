@@ -19,15 +19,13 @@ WARNING:
 ## Shared Tags
 
 -	`latest`:
-	-	[`linux` (*amd64/hola-mundo/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hola-mundo/Dockerfile)
-	-	[`nanoserver` (*amd64/hola-mundo/nanoserver/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hola-mundo/nanoserver/Dockerfile)
-	-	[`nanoserver1709` (*amd64/hola-mundo/nanoserver1709/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hola-mundo/nanoserver1709/Dockerfile)
+	-	[`linux` (*arm32v5/hola-mundo/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/arm32v5/hola-mundo/Dockerfile)
 
 ## Simple Tags
 
--	[`linux` (*amd64/hola-mundo/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hola-mundo/Dockerfile)
--	[`nanoserver` (*amd64/hola-mundo/nanoserver/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hola-mundo/nanoserver/Dockerfile)
--	[`nanoserver1709` (*amd64/hola-mundo/nanoserver1709/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/amd64/hola-mundo/nanoserver1709/Dockerfile)
+-	[`linux` (*arm32v5/hola-mundo/Dockerfile*)](https://github.com/docker-library/hello-world/blob/c83a065a24e94e635ddd518c2a3cffc91accf30d/arm32v5/hola-mundo/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/hola-mundo/badge/icon) (`arm32v5/hola-mundo` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v5/job/hola-mundo/)
 
 # Quick reference
 
@@ -62,7 +60,7 @@ WARNING:
 This image is a vanity variant of [the `hello-world` image](https://hub.docker.com/_/hello-world/) created specifically for [DockerCon EU 2015](http://europe-2015.dockercon.com/). Its use is discouraged.
 
 ```console
-$ docker run hola-mundo
+$ docker run arm32v5/hola-mundo
 
 ¡Hola de DockerCon EU 2015 (Barcelona)!
 This message shows that your installation appears to be working correctly.
