@@ -22,6 +22,8 @@ WARNING:
 -	[`13.2`, `harlequin` (*docker/Dockerfile*)](https://github.com/openSUSE/docker-containers-build/blob/f1cf8438c9d72afa0d4022c27fd6ee3e47b70e4c/docker/Dockerfile)
 -	[`tumbleweed` (*docker/Dockerfile*)](https://github.com/openSUSE/docker-containers-build/blob/5fb97e9dd32bad7be37ae4ffb32fd1d796f30d80/docker/Dockerfile)
 
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/opensuse/badge/icon) (`amd64/opensuse` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/amd64/job/opensuse/)
+
 # Quick reference
 
 -	**Where to get help**:  
