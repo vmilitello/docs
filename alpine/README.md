@@ -16,13 +16,10 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`3.6`, `latest` (*versions/library-3.6/x86_64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/0450fe826ccdedf63dd70da1ad953f1aaf932225/versions/library-3.6/x86_64/Dockerfile)
--	[`edge` (*versions/library-edge/x86_64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/1aa169fe8d573c0b6d8fe0d446f61be0700c8008/versions/library-edge/x86_64/Dockerfile)
--	[`3.1` (*versions/library-3.1/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/956c360824ed3629d8e132e1c13299be73120f88/versions/library-3.1/Dockerfile)
--	[`3.2` (*versions/library-3.2/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/8708779d075ac943b5d57b60cf17a6d2dacfbf1b/versions/library-3.2/Dockerfile)
--	[`3.3` (*versions/library-3.3/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/b8e69ac308464f18e5fc8fb2da827f7e97c890ff/versions/library-3.3/Dockerfile)
--	[`3.4` (*versions/library-3.4/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/c32ca6c6c399fe7d2ba857635ea15d0b08ac6dc5/versions/library-3.4/Dockerfile)
--	[`3.5` (*versions/library-3.5/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/849c93d4bd1c5490dfd146f24291a40aa430d0ed/versions/library-3.5/Dockerfile)
+-	[`3.6`, `latest` (*versions/library-3.6/aarch64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/23170e382bf9f6e6a10a5618101f1a434586ba52/versions/library-3.6/aarch64/Dockerfile)
+-	[`edge` (*versions/library-edge/aarch64/Dockerfile*)](https://github.com/gliderlabs/docker-alpine/blob/1903a85da34bcd78249ce2b2204f0f7fe22c9489/versions/library-edge/aarch64/Dockerfile)
+
+[![Build Status](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/alpine/badge/icon) (`arm64v8/alpine` build job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm64v8/job/alpine/)
 
 # Quick reference
 
@@ -65,7 +62,7 @@ WARNING:
 Use like you would any other base image:
 
 ```dockerfile
-FROM alpine:3.5
+FROM arm64v8/alpine:3.5
 RUN apk add --no-cache mysql-client
 ENTRYPOINT ["mysql"]
 ```
